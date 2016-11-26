@@ -10,28 +10,19 @@ namespace oop_main
     {
         static void Main(string[] args)
         {
-            Point p1 = new Point(3, 3, 'Q');
-            Point p2 = new Point(4, 4, 'Q');
-            Point p3 = new Point(5, 5, 'Q');
-            Point p4 = new Point(6, 5, 'Q');
+            VertLine vline = new VertLine(2, 5, 7, '#');
+            vline.Draw();
+
+            HorizLine line = new HorizLine(1, 20, 4, '^');
+                line.Draw();
+
+           
 
 
+            
 
 
-            List<Point> pList = new List<Point>();
-            pList.Add(p1);
-            pList.Add(p2);
-            pList.Add(p3);
-            pList.Add(p4);
-
-
-            foreach (Point i in pList)
-            {
-                i.Draw();
-            }
-            Console.ReadLine();  
-
-
+            Console.Read();
         }
 
        
