@@ -3,3 +3,4 @@ C:\Users\admin\git\c_sharp\oop_main\oop_main\bin\Debug\oop_main.exe
 C:\Users\admin\git\c_sharp\oop_main\oop_main\bin\Debug\oop_main.pdb
 C:\Users\admin\git\c_sharp\oop_main\oop_main\obj\Debug\oop_main.exe
 C:\Users\admin\git\c_sharp\oop_main\oop_main\obj\Debug\oop_main.pdb
+C:\Users\admin\git\c_sharp\oop_main\oop_main\obj\Debug\oop_main.csprojResolveAssemblyReference.cache

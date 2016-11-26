@@ -10,20 +10,31 @@ namespace oop_main
     {
         static void Main(string[] args)
         {
-            Draw(2, 4, '&');
-            Draw(6, 6, '%');
+            Point p1 = new Point(3, 3, 'Q');
+            Point p2 = new Point(4, 4, 'Q');
+            Point p3 = new Point(5, 5, 'Q');
+            Point p4 = new Point(6, 5, 'Q');
 
 
-            Console.ReadLine();
+
+
+            List<Point> pList = new List<Point>();
+            pList.Add(p1);
+            pList.Add(p2);
+            pList.Add(p3);
+            pList.Add(p4);
+
+
+            foreach (Point i in pList)
+            {
+                i.Draw();
+            }
+            Console.ReadLine();  
 
 
         }
 
-        static void Draw(int x, int y, char sym)
-        {
-            Console.SetCursorPosition(x, y);
-            Console.Write(sym);
-        }
+       
 
     }
 }
